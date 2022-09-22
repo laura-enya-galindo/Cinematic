@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="buy_tickets.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <title> Buy Tickets Cinematic </title>
+</head>
+
+<body> 
+	<div id="global">
+	
+	<!-- The HEADER of our website's homepage. -->
+	<!-- It is the same one on all the pages of our website. -->
+
+	<header>
+	
+		<div class="wrap">
+			
+			<!-- Here is the part of code where we add the logo of our website. -->
+			<div id="logo">
+				<a href="homepage.html">
+					<img src="Cinema_website_logo.png" alt="Cinematic logo">
+				</a>
+			</div>
+			
+			<!-- Here is the part of code where we add the title of our website "Cinematic". -->
+			<div id="cinema_name">
+				Cinematic
+			</div>
+			
+			<!-- Here is the part of code for our menu. -->
+			<!-- Each element of the list corresponds to a name in our menu. -->
+			
+			<div class="menu_responsive">
+			
+				<ul id="menu" class="menu_top">
+					<li class="homepage">
+						<a href="homepage.html">Home</a>
+					</li>
+				
+					<li class="films">
+						<a href="films.html" title="Films currently projected">Films</a>
+					</li>
+				
+					<li class="buy_tickets">
+						<a href="buy_tickets.html" title="Get a ticket">Buy ticket</a>
+					</li>
+				
+					<li class="about">
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+
+				<div class="login_responsive">
+					<a href="login.html"> <img src="login_icon.jpg" alt="Login"> </a>
+				</div>
+			</div>
+			
+			
+			
+			<!-- There is also the possibility for the user to login to the website. Since we do not know server programming, the login page does not really login the user. -->
+			<div class="login">
+				<a href="login.html" id="login">Login</a>
+			</div>
+			
+			
+		</div>
+		
+	</header>
+	</div>
+	
+
+    <div class="container">
+        <form id="form">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required="required">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      
+          <label for="movie">Movie</label>
+          <select id="movie" name="movie" required>
+            <option value="hunger-games">The Hunger Games</option>
+            <option value="conjuring_3">Conjuring 3</option>
+            <option value="titanic">Titanic</option>
+            <option value="interstellar">Interstellar</option>
+            <option value="luca">Luca</option>
+            <option value="poirot">Agatha Christie: Crime on the Orient Express</option>
+          </select>
+
+          <label for="card_details">Card Number</label>
+          <input type="text" id="card_details" name="card_number" placeholder="Your card number..">
+
+          <label for="card_name">Name on Card</label>
+          <input type="text" id="card_name" name="name" placeholder="Name on card..">
+
+          <label for="day">Day</label>
+          <select id="day" name="day" required>
+            <option value="mondays">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>    
+            <option value="sunday">Sunday</option>        
+          </select>
+          
+          <label for="time">Time</label>
+          <select id="time" name="time" required="required">
+            <option value="10:00">10:00</option>
+            <option value="12:30">12:30</option>
+            <option value="14:00">14:00</option>
+            <option value="16:30">16:30</option>
+            <option value="18:00">18:00</option> 
+            <option value="18:00">21:00</option>            
+          </select>
+
+      
+          <button class="submit">Book now!</button>
+      
+        </form>
+    </div>
+	
+    <footer>
+		<div class="wrap">
+		
+			<div id="logo_footer"><img src="Cinema_website_logo.png" alt="Cinematic logo"></div>
+			
+			<div class="menu_footer">
+				<ul class="links_footer">
+					<li><a href="homepage.html"><strong class="homepage">Home</strong></a></li> 
+					<li><a href="films.html">Films</a></li> 
+					<li><a href="about.html">About</a></li> 
+				</ul>
+			</div>
+			
+			<div id="social_footer">
+				<p>Follow us on social medias: </p>
+				<div id="social_buttons">
+					<a href="" title="View our Facebook page" class="slink_facebook"> <img src="facebook.png" alt="Facebook logo"> </a>
+					<a href="" title="View our Twitter account" class="slink_twitter"> <img src="twitter.png" alt="Twitter logo"> </a>
+					<a href="" title="View our Instagram account" class="slink_instagram"> <img src="instagram.png" alt="Instagram logo"> </a>
+				</div>			
+			</div>
+	
+		</div>
+	</footer>
+
+	<script src="buy_tickets.js"></script>
+</body>
+
+</html>

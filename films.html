@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="films.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <!-- <script src="films.js" defer></script> -->
+    <title> Cinematic </title>
+</head>
+
+<body> 
+	<div id="global">
+
+	<header>
+	
+		<div class="wrap">
+			
+			<!-- Here is the part of code where we add the logo of our website. -->
+			<div id="logo">
+				<a href="homepage.html">
+					<img src="Cinema_website_logo.png" alt="Cinematic logo">
+				</a>
+			</div>
+			
+			<!-- Here is the part of code where we add the title of our website "Cinematic". -->
+			<div id="cinema_name">
+				Cinematic
+			</div>
+			
+			<!-- Here is the part of code for our menu. -->
+			<!-- Each element of the list corresponds to a name in our menu. -->
+			
+			<div class="menu_responsive">
+			
+				<ul id="menu" class="menu_top">
+					<li class="homepage">
+						<a href="homepage.html">Home</a>
+					</li>
+				
+					<li class="films">
+						<a href="films.html" title="Films currently projected">Films</a>
+					</li>
+				
+					<li class="buy_tickets">
+						<a href="buy_tickets.html" title="Get a ticket">Buy ticket</a>
+					</li>
+				
+					<li class="about">
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+
+				<div class="login_responsive">
+					<a href="login.html"> <img src="login_icon.jpg" alt="Login"> </a>
+				</div>
+			</div>
+			
+			
+			
+			<!-- There is also the possibility for the user to login to the website. Since we do not know server programming, the login page does not really login the user. -->
+			<div class="login">
+				<a href="login.html" id="login">Login</a>
+			</div>
+			
+			
+		</div>
+		
+	</header>
+	
+	<h1> Films </h1>
+	
+	<!-- Here we display clickable movie posters. Each movie has its own page. -->
+	
+	<!-- A typical film "box". -->
+	<div class="container">
+		<div class="stamp"> 
+			<div class="content">
+				<h2> <a href="hunger_games.html"> The Hunger Games </a> </h2>
+				<p> Gary Ross </p>
+			</div>
+		</div> 
+		<img src="hunger_games_landscape.jpg" alt="The Hunger Games" width="500" height="250">
+	</div><br>
+	
+	<div class="container">
+		<div class="stamp"> 
+			<div class="content">
+				<h2> <a href="interstellar.html"> Interstellar </a> </h2>
+				<p> Christopher Nolan </p>
+			</div>
+		</div>
+		<img src="interstellar_landscape.jpg" alt="Interstellar" width="500" height="250">
+	</div><br>
+	
+	<div class="container">
+		<div class="stamp"> 
+			<div class="content">
+				<h2> <a href="titanic.html"> Titanic </a> </h2>
+				<p> James Cameron </p>
+			</div>
+		</div>
+		<img src="titanic_landscape.jpg" alt="Titanic" width="500" height="250">
+	</div><br>
+	
+	<div class="container">
+		<div class="stamp"> 
+			<div class="content">
+				<h2> <a href="conjuring.html"> The Conjuring 3 </a> </h2>
+				<p> Michael Chaves </p>
+			</div>
+		</div>
+		<img src="conjuring_landscape.jpg" alt="The Conjuring 3" width="500" height="250">
+	</div><br>
+	
+	<div class="container">
+		<div class="stamp"> 
+			<div class="content">
+				<h2> <a href="murder.html"> Murder on the Orient Express </a> </h2>
+				<p> Kenneth Branagh </p>
+			</div>
+		</div>
+		<img src="murder_landscape.jpg" alt="Murder on the Orient Express" width="500" height="250">
+	</div><br>
+	
+	<div class="container">
+		<div class="stamp"> 
+			<div class="content">
+				<h2> <a href="inside_out.html"> Inside Out </a> </h2>
+				<p> Pete Docter </p>
+			</div>
+		</div>
+		<img src="inside_out_landscape.jpg" alt="Inside Out" width="500" height="250">
+	</div><br>
+	
+	</div>
+	
+	<footer>
+		<div class="wrap">
+		
+			<div id="logo_footer"><img src="Cinema_website_logo.png" alt="Cinematic logo"></div>
+			
+			<div class="menu_footer">
+				<ul class="links_footer">
+					<li><a href="homepage.html"><strong class="homepage">Home</strong></a></li> 
+					<li><a href="films.html">Films</a></li> 
+					<li><a href="about.html">About</a></li> 
+				</ul>
+			</div>
+			
+			<div id="social_footer">
+				<p>Follow us on social medias: </p>
+				<div id="social_buttons">
+					<a href="" title="View our Facebook page" class="slink_facebook"> <img src="facebook.png" alt="Facebook logo"> </a>
+					<a href="" title="View our Twitter account" class="slink_twitter"> <img src="twitter.png" alt="Twitter logo"> </a>
+					<a href="" title="View our Instagram account" class="slink_instagram"> <img src="instagram.png" alt="Instagram logo"> </a>
+				</div>			
+			</div>
+	
+		</div>
+	</footer>
+	
+</body>
+
+</html>

@@ -1,0 +1,435 @@
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#0a4afa, rgb(252, 21, 221));
+    font-family: 'Antonio', sans-serif;
+  }
+  
+
+#global {
+    background: transparent;
+    max-width: 100%;
+    text-align: center;
+	position: relative;
+	/*margin: 0 auto;*/
+	/*padding: 0;*/
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+/* ---------------- */
+/* HEADER */
+
+header {
+	background-color: rgb(255, 255, 255);
+	font-family: 'Antonio', 'Open Sans', sans-serif;
+	border-bottom: solid 6px rgb(255, 20, 147);
+}
+
+.wrap {
+	text-align: left;
+	max-width: 980px;
+	width: 100%;
+}
+
+/* logo */
+
+#logo {
+	margin: 20px 46px 0 26px;
+	float: left;
+}
+
+#logo img {
+    max-width: 200px;
+}
+
+/* title */
+
+#cinema_name {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    margin: 25px 0 10px 0;
+	font-family: 'Bebas Neue', 'Open Sans', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	border-top: solid 2px rgb(193, 193, 193);
+	border-bottom: solid 2px rgb(193, 193, 193);
+	padding: 0.5em 0.5em 0.5em 0;
+	color: rgb(0,0,255);
+}
+
+/* menu */
+
+#menu {
+    font-size: 16px;
+    z-index: 200;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: block;
+    width: 80%;
+	font-size: 25px;
+}
+
+#menu li {
+    display: inline-block;
+	margin-right: 20px;
+}
+
+.menu_top a, .menu_top a:visited {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+}
+
+.menu_top li {
+	list-style: none;
+}
+
+.menu_top a:hover {
+	color: rgb(255, 211, 0);
+}
+
+/* login link */
+
+#login {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	background-color: rgb(195, 195, 195);
+	color: rgb(255, 255, 255);
+	display: inline-block;
+    vertical-align: middle;
+    padding: 0.75em;
+    border-radius: 10px 10px 10px 0;
+	width: 50px;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#login:hover {
+    text-decoration: underline;
+}
+
+.login_responsive {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 37px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+/* ---------------- */
+/* FOOTER */
+
+footer {
+	background-color: rgb(0,0,255);
+	font-family: 'Antonio', 'Open Sans', sans-serif;
+	border-top: solid 6px rgb(20, 145, 235);
+	color: rgb(255, 255, 255);
+	overflow: hidden;
+	padding: 0 0 30px 0;
+	position: relative;
+	margin-bottom: 0;
+	width: 100%;
+	font-size: 16px;
+}
+
+footer strong {
+    color: rgb(20, 145, 235);
+	font-weight: 700;
+}
+
+.menu_footer, #logo_footer, #social_footer {
+    float: left;
+    margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+/* logo */
+
+#logo_footer {
+    border-right: 1px solid rgb(204, 204, 204);
+	margin: 20px 46px 0 26px;
+	float: left;
+}
+
+#logo_footer img {
+	max-width: 100px;
+}
+
+/* pages menu */
+
+.menu_footer {
+    text-align: left;
+    box-sizing: border-box;
+    width: 150px;
+    padding: 0 10px;
+}
+
+.menu_footer ul, .menu_footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu_footer a, .menu_footer a:visited, .menu_footer strong {
+    display: block;
+    padding: 3px;
+    text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 3px;
+}
+
+.menu_footer a:hover {
+	text-decoration: underline;
+}
+
+/* social media links */
+
+#social_footer {
+	margin-left: 10px;
+    border-left: 1px solid rgb(204, 204, 204);
+    padding-left: 30px;
+}
+
+#social_footer p {
+    margin-top: 0;
+}
+
+#social_buttons a.slink_twitter, #social_buttons a.slink_facebook, #social_buttons a.slink_instagram {
+	background: rgb(153, 153, 153)
+}
+
+#social_buttons a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+#social_buttons img {
+	width: 36px;
+	height: 36px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/*CSS code for login content*/
+
+  .login-box {
+    position: relative;
+    margin-top: 30%;
+
+    left: 50%;
+    bottom: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: yellow;
+    text-align: center;
+  }
+  .login-box a {
+      color: blue;
+      text-decoration: underline;
+      text-align: center;
+  }
+
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: blue;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(252, 21, 221);
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(252, 21, 221);
+    pointer-events: none;
+    transition: 1s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: rgb(252, 21, 221);
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #bfe70b;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(252, 21, 221),
+                0 0 25px rgb(252, 21, 221),
+                0 0 50px rgb(252, 21, 221),
+                0 0 100px rgb(252, 21, 221);
+  }
+  
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgb(252, 21, 221));
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgb(252, 21, 221));
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, rgb(252, 21, 221));
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, rgb(252, 21, 221));
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  
+  /* ---------------- */
+/* RESPONSIVE HEADER */
+
+/* Adapting the page layout to phones' screen sizes. */
+/* Once the header links are not in one line anymore, we reduce the font size and ajust the layout such that it still has a clear layout. */
+
+@media (max-width: 700px) {
+	.wrap {
+		height: 270px;
+	}
+	/* Reducing the size of the logo at the top left corner. */
+	#logo img {
+		max-width: 60px;
+		margin: 2px 0 20px 2px;
+	}
+	/* Reducing the font size of the title "Cinematic". */
+	#cinema_name {
+		font-size: 30px;
+		display: block;
+		text-align: center;
+		width: 100%;
+		overflow: hidden;
+	}
+	/* Setting a smaller login icon at the top right corner. */
+	#login {
+		display: none;
+	}
+	.login_responsive {
+		display: inline-block
+	}
+	/* Reducing the font size of the links to other pages. */
+	#menu li a {
+		font-size: 20px;
+    }
+	/* Setting the social media below the menu. */
+	#social_footer {
+		width: 100%;
+	}
+}

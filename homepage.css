@@ -1,0 +1,313 @@
+body {
+	font-size: 30px;
+	background-color: rgb(245, 245, 245);
+	margin: 0;
+	padding: 0;
+	font-family: 'Dancing Script', 'Open Sans', cursive, Arial, sans-serif;
+}
+
+#global {
+    background: transparent;
+    max-width: 100%;
+    text-align: center;
+	position: relative;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+/* ---------------- */
+/* HEADER */
+
+header {
+	background-color: rgb(255, 255, 255);
+	font-family: 'Antonio', 'Open Sans', sans-serif;
+	border-bottom: solid 6px rgb(255, 20, 147);
+}
+
+.wrap {
+	text-align: left;
+	max-width: 980px;
+	width: 100%;
+}
+
+/* logo */
+
+#logo {
+	margin: 20px 46px 0 26px;
+	float: left;
+}
+
+#logo img {
+    max-width: 200px;
+}
+
+/* title */
+
+#cinema_name {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    margin: 25px 0 10px 0;
+	font-family: 'Bebas Neue', 'Open Sans', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	border-top: solid 2px rgb(193, 193, 193);
+	border-bottom: solid 2px rgb(193, 193, 193);
+	padding: 0.5em 0.5em 0.5em 0;
+	color: rgb(0,0,255);
+}
+
+/* menu */
+
+#menu {
+    font-size: 16px;
+    z-index: 200;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: block;
+    width: 80%;
+	font-size: 25px;
+}
+
+#menu li {
+    display: inline-block;
+	margin-right: 20px;
+}
+
+.menu_top a, .menu_top a:visited {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+}
+
+.menu_top li {
+	list-style: none;
+}
+
+.menu_top a:hover {
+	color: rgb(255, 211, 0);
+}
+
+/* login link */
+
+#login {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	background-color: rgb(195, 195, 195);
+	color: rgb(255, 255, 255);
+	display: inline-block;
+    vertical-align: middle;
+    padding: 0.75em;
+    border-radius: 10px 10px 10px 0;
+	width: 50px;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#login:hover {
+    text-decoration: underline;
+}
+
+.login_responsive {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 37px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+/* ---------------- */
+/* FOOTER */
+
+footer {
+	background-color: rgb(0,0,255);
+	font-family: 'Antonio', 'Open Sans', sans-serif;
+	border-top: solid 6px rgb(20, 145, 235);
+	color: rgb(255, 255, 255);
+	overflow: hidden;
+	padding: 0 0 30px 0;
+	position: relative;
+	margin-bottom: 0;
+	width: 100%;
+	font-size: 16px;
+}
+
+footer strong {
+    color: rgb(20, 145, 235);
+	font-weight: 700;
+}
+
+.menu_footer, #logo_footer, #social_footer {
+    float: left;
+    margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+/* logo */
+
+#logo_footer {
+    border-right: 1px solid rgb(204, 204, 204);
+	margin: 20px 46px 0 26px;
+	float: left;
+}
+
+#logo_footer img {
+	max-width: 100px;
+}
+
+/* pages menu */
+
+.menu_footer {
+    text-align: left;
+    box-sizing: border-box;
+    width: 150px;
+    padding: 0 10px;
+}
+
+.menu_footer ul, .menu_footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu_footer a, .menu_footer a:visited, .menu_footer strong {
+    display: block;
+    padding: 3px;
+    text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 3px;
+}
+
+.menu_footer a:hover {
+	text-decoration: underline;
+}
+
+/* social media links */
+
+#social_footer {
+	margin-left: 10px;
+    border-left: 1px solid rgb(204, 204, 204);
+    padding-left: 30px;
+}
+
+#social_footer p {
+    margin-top: 0;
+}
+
+#social_buttons a.slink_twitter, #social_buttons a.slink_facebook, #social_buttons a.slink_instagram {
+	background: rgb(153, 153, 153)
+}
+
+#social_buttons a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+#social_buttons img {
+	width: 36px;
+	height: 36px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/* ---------------- */
+/* HOMEPAGE BODY */
+
+/* in one click logo links */
+
+#clicker {
+	color: rgb(239, 204, 0);
+}
+
+.quick-link a {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.quick-link a:visited {
+	text-decoration: none;
+}
+
+#quick_access li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 70px;
+}
+
+#quick_access li .txt {
+    color: rgb(239, 204, 0);
+	padding-bottom: 1rem;
+	display: block;
+}
+
+.quick-link img {
+	width: 72px;
+	height: 72px;
+}
+
+#quick_access li a:hover .txt {
+    text-decoration: underline;
+}
+
+/* photo of cinema room */
+
+#photo_cinema {
+	width: 44%;
+	margin-bottom: 1.6%;
+}
+
+/* ---------------- */
+/* RESPONSIVE */
+
+/* Adapting the page layout to phones' screen sizes. */
+/* Once the header links are not in one line anymore, we reduce the font size and ajust the layout such that it still has a clear layout. */
+
+@media (max-width: 700px) {
+	.wrap {
+		height: 270px;
+	}
+	/* Reducing the size of the logo at the top left corner. */
+	#logo img {
+		max-width: 60px;
+		margin: 2px 0 20px 2px;
+	}
+	/* Reducing the font size of the title "Cinematic". */
+	#cinema_name {
+		font-size: 30px;
+		display: block;
+		text-align: center;
+		width: 100%;
+		overflow: hidden;
+	}
+	/* Setting a smaller login icon at the top right corner. */
+	#login {
+		display: none;
+	}
+	.login_responsive {
+		display: inline-block
+	}
+	/* Reducing the font size of the links to other pages. */
+	#menu li a {
+		font-size: 20px;
+    }
+	/* Setting the social media below the menu. */
+	#social_footer {
+		width: 100%;
+	}
+}
